@@ -1,10 +1,12 @@
 package QuestionAnswers;
 
 import java.util.*;
-public class ConsecutiveNumbers {
+public class Question1_ConsecutiveNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		// find if elements of an array's elements are consecutive or not.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("How many number you want to check");
 		int size = sc.nextInt();
