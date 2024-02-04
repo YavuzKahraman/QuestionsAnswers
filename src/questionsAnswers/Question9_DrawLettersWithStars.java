@@ -1,6 +1,6 @@
 package questionsAnswers;
 
-public class DrawLettersWithStars {
+public class Question9_DrawLettersWithStars {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
