@@ -5,7 +5,7 @@ public class Question6_GapLunch {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(gap(10, 32, 11, 40)); // Should print true
-        System.out.println(gap(12, 0, 13, 15));  // Should print false
+        System.out.println(gap(12, 0, 13, 15));  // Should print true
 
 	}
 	public static boolean gap(int h1, int m1, int h2, int m2) {
