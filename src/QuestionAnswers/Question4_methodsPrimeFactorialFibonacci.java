@@ -4,12 +4,14 @@ public class Question4_methodsPrimeFactorialFibonacci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n = 6;
-		System.out.println("factorial of 6: "+fact(n));
-		System.out.println("fibonacci value of 6th index: "+fibo(n));
+		int n = 7;
+		System.out.println("factorial of 7: "+fact(n));
+		System.out.println("fibonacci value of 7th index: "+fibo(n));
 	
 		System.out.println("is n prime ? "+isPrime(n));
 		primeFactors(15);
+		System.out.println("******************");
+		pFactors(21);
 
 	}
 	// factorial of n
@@ -42,6 +44,18 @@ public class Question4_methodsPrimeFactorialFibonacci {
 			while (n%i == 0) {
 				System.out.print(i+" ");
 				n /= i;	
+			}
+		}
+	}
+	public static void pFactors(int n) {
+		int fact = 2;
+		System.out.print("Prime factors of "+n+" are ");
+		while (fact<=n) {
+			if (n % fact ==0) {
+				System.out.print(fact+"-");
+				n = n/fact;
+			} else {
+				fact++;
 			}
 		}
 	}
