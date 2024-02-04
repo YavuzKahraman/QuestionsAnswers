@@ -1,4 +1,4 @@
-package QuestionAnswers;
+package questionsAnswers;
 import java.util.*;
 
 public class Question3_SortCitiesAlphatecially {

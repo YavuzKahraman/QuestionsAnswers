@@ -1,4 +1,4 @@
-package QuestionAnswers;
+package questionsAnswers;
 
 public class Question2_MaxandMinValueofArray {
 
