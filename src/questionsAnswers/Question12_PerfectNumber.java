@@ -48,6 +48,8 @@ public class Question12_PerfectNumber {
 		}
 		return true;
 	}
+	
+	// finds if n is perfect or not
 	public static boolean isPerfect(int n) {
 		int sum =0;
 		for (int i = 1; i < n; i++) {
