@@ -11,7 +11,7 @@ public class Question10_ArrayManupulations {
 		reverseNelement(arr, 6);
 		//System.out.println(Arrays.toString(reverseArray(arr)))
 		System.out.println("Reversed array"+Arrays.toString(reverseArray(arr)));
-		System.out.println(Arrays.toString(unique(arr)));
+		System.out.println("Unique elements as array: "+Arrays.toString(unique(arr)));
 	}
 	// Swap first and last elements of array and prompt it to console
 	public static void swapFnL(int [] arr) {
