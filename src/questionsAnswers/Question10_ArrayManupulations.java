@@ -6,9 +6,10 @@ public class Question10_ArrayManupulations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int [] arr = {2,3,1,5,6,4,8,4,7};
+		int [] arr = {1,1,7,6,1,5,6,4,8,4,7};
 		//swapFnL(arr);
-		System.out.println(Arrays.toString(reverseArray(arr)));
+		reverseNelement(arr, 6);
+		//System.out.println(Arrays.toString(reverseArray(arr)));
 
 	}
 	// Swap first and last elements of array and prompt it to console
@@ -33,8 +34,22 @@ public class Question10_ArrayManupulations {
 	}
 	
 	// reverse first n elements of an array
-	public static void reverseNelement(int [] arr) {
+	public static void reverseNelement(int [] arr, int n) {
+		int [] revArr = new int [arr.length];
+		for (int i = 0; i <n ; i++) {
+			revArr[n-i-1]= arr[i];
+		}
+		for (int i = n; i < revArr.length; i++) {
+			revArr[i]=arr[i];
+		}
+		if (n>=arr.length) {
+			System.out.println("Check your key index. Key index must be less or equal than array length");
+			return;
+		}
+			
 		
+		System.out.println("first "+n+" elements are reversed array: "+Arrays.toString(revArr));
+
 	}
 
 }
